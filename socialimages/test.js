@@ -1,22 +1,11 @@
 (async () => {
 	switch (command) {
-case "tt":
+case "tt": {
 let Languagey = require("./lib/scraper");
 let Langt = Languagey.getString("global");
-let todlinkt = [
-      `${Langt.pic1}`,
-      `${Langt.pic2}`,
-      `${Langt.pic3}`,
-      `${Langt.pic4}`,
-      `${Langt.pic5}`,
-      `${Langt.pic6}`,
-    ];
 
-   let picsecktorr = todlinkt[Math.floor(Math.random() * todlinkt.length)];
-  //  console.log(picsecktor)
-        if (icmd) {
           let buttonMessaged = {
-           image:{ url : picsecktorr},
+           image:{ url : picsecktor},
             caption: `Did you mean ${prefix}help?`,
             footer: ` ` + LangG.footer,
             headerType: 4,
@@ -35,7 +24,7 @@ let todlinkt = [
           await Void.sendMessage(citel.chat, buttonMessaged, {
             quoted: citel,
           });
-        }
+}
         break
 		}
 })()
