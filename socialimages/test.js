@@ -1,7 +1,7 @@
 (async () => {
 	switch (command) {
 case "tt":
-let Languagey = require("./lib/string");
+let Languagey = require("./lib/scraper");
 let Langt = Languagey.getString("global");
 let todlinkt = [
       `${Langt.pic1}`,
