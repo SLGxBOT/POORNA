@@ -1,2 +1,0 @@
-# Brandimages
-just some assets
